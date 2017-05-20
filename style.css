@@ -1,0 +1,138 @@
+/* xxx */
+html {
+	-webkit-text-size-adjust: 100%;
+}	
+
+body {
+	
+  	background: black;
+  	color: #111;
+	font-family: 'Slabo 27px', serif;
+  	font-size: 12px;
+  	font-weight: normal;
+  	line-height: 1.25;
+  	margin: 0;
+  	overflow: hidden;
+
+}
+
+
+div.img {
+	background-image: url("images/miau.jpeg");
+	/*background-position: 60% 40%;*/
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	max-height: 75%;
+	bottom: 20%;
+	left: 0;
+	position: absolute;
+ 	right: 0;
+	top: 0;
+}
+
+#icon {
+    background-image: url("images/insta_icon.png");
+    width: 20px;
+    height: 20px;
+    top: 15px;
+}
+
+.under_const {
+	display: inline;
+	z-index: 2;
+	width: 75px;
+	height: 75px;
+	margin: 13%;
+	
+}
+/*
+	-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+}
+*/
+/*
+div.uc_bg {
+    display: inline;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 5%;
+    top: 63%;    
+    right: 30px;
+    background-color: #55a0c2;
+    /* circle background
+    border-radius: 80%;
+    border-color: #55a0c2;
+
+} */
+
+div.main {
+	background-color: white;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+  	right: 0;
+ 	text-align: center;
+ 	height: auto;
+}
+
+h2 {
+	color: #225587;
+	font-size: 1.8em;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+a{
+	font-size: 1.2em;
+	text-decoration: none;
+	
+}
+
+	
+#prev a {
+	padding-bottom: 5px;
+	margin: 3%;
+	color: black !important;
+	letter-spacing: 0.1em;
+}
+#prev a:hover {
+  text-decoration: underline;
+}
+
+
+/*#contact a {
+	margin: 5px;
+	padding: 10px 0;
+	color: #225587;
+}*/
+
+#contact a {
+    margin: 2%;
+    -webkit-background-clip: padding;
+    -webkit-border-radius: 4px;
+    background-clip: padding-box;
+    background: transparent;
+    border-radius: 4px;
+    border: 0;
+    color: #225587;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px;
+    bottom: 50px;
+}
+
+#contact a:hover {
+  background: #225587;
+  color: #fff;
+  text-decoration: none;
+}
