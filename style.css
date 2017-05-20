@@ -18,7 +18,7 @@ body {
 
 
 div.img {
-	background-image: url("images/miau.jpeg");
+	background-image: url("miau.jpeg");
 	/*background-position: 60% 40%;*/
 	/*background-repeat: no-repeat;*/
 	background-size: cover;
@@ -29,49 +29,6 @@ div.img {
  	right: 0;
 	top: 0;
 }
-
-#icon {
-    background-image: url("images/insta_icon.png");
-    width: 20px;
-    height: 20px;
-    top: 15px;
-}
-
-.under_const {
-	display: inline;
-	z-index: 2;
-	width: 75px;
-	height: 75px;
-	margin: 13%;
-	
-}
-/*
-	-webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-}
-}
-*/
-/*
-div.uc_bg {
-    display: inline;
-    z-index: 1;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    margin: 5%;
-    top: 63%;    
-    right: 30px;
-    background-color: #55a0c2;
-    /* circle background
-    border-radius: 80%;
-    border-color: #55a0c2;
-
-} */
 
 div.main {
 	background-color: white;
@@ -109,12 +66,6 @@ a{
   text-decoration: underline;
 }
 
-
-/*#contact a {
-	margin: 5px;
-	padding: 10px 0;
-	color: #225587;
-}*/
 
 #contact a {
     margin: 2%;
